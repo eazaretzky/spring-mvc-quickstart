@@ -1,4 +1,4 @@
-package com.codetutr.springconfig;
+package ar.com.orangebit.springMvcQuickstart.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -8,7 +8,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages="com.codetutr.controller")
+@ComponentScan(basePackages="ar.com.orangebit.springMvcQuickstart.controller")
 public class WebConfig {
 
 	@Bean
